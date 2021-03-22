@@ -30,6 +30,26 @@
   width: 100%;
   height: auto;
 }
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* End of Columns */
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
@@ -152,10 +172,18 @@ hr.solid {
       <div class="header">
         <h4> <p style="color:white;">Here are the latest in podcast updates, promotions and "The Podcast! Effect", and other related stories written in this page. Enjoy!</p></h4>
       </div>
-      
+
       <center>
       <div class="row">
         <div class="leftcolumn">
+          <div class="card">
+            <a href="/news/mr-bffs-memories-story">
+            <img src="/images/20210321160344.png" alt="FrogDominoes" width="750" height="550" class="responsive">
+            <h2>Mr B.F.F - Remembering His Online Memories</h2>
+            <h5><i class="fas fa-user"></i> AngeloJacksonED - March 22nd, 2021</h5>
+            <p>Post-Podcast Life. What is his opinions? Find out here!</p>
+            </a>
+          </div>
           <div class="card">
             <a href="/news/the-domino-effect">
             <img src="/images/HNI_0014.JPG" alt="FrogDominoes" width="750" height="550" class="responsive">
