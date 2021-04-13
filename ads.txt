@@ -1,5 +1,48 @@
 google.com, pub-7091793253721276, DIRECT, f08c47fec0942fa0
 
+# branch 2
+infolinks.com, 3318895, direct
+appnexus.com, 3251, reseller
+google.com, pub-6373315980741255, reseller, f08c47fec0942fa0
+google.com, pub-4299156005397946, reseller, f08c47fec0942fa0
+google.com, pub-7858377917172490, reseller, f08c47fec0942fa0
+google.com, pub-1463455084986126, reseller, f08c47fec0942fa0
+rubiconproject.com, 20322, reseller, 0bfd66d529a55807
+pubmatic.com, 60809, reseller, 5d62403b186f2ace
+yahoo.com, 58723, reseller
+adtech.com, 11409, reseller
+advertising.com, 6202, reseller
+advertising.com, 17744, reseller
+spotxchange.com, 74999, reseller, 7842df1d2fe2db34
+spotx.tv, 74999, reseller, 7842df1d2fe2db34
+indexexchange.com, 191306, reseller
+openx.com, 543174347, reseller, 6a698e2ec38604c6
+rhythmone.com, 2221906906, direct, a670c89d4a324e47
+video.unrulymedia.com, 2221906906, direct
+sovrn.com, 268479, direct, fafdf38b16bf6b2b
+lijit.com, 268479, direct, fafdf38b16bf6b2b
+lijit.com, 268479-eb, direct, fafdf38b16bf6b2b
+sonobi.com, 0e0a64d7d3, direct, d1a215d9eb5aee9e
+pubmatic.com, 158270, reseller, 5d62403b186f2ace
+appnexus.com, 7666, reseller, f5ab79cb980f11d1
+rubiconproject.com, 156042, reseller, 0bfd66d529a55807
+pubmatic.com, 156872, reseller, 5d62403b186f2ace
+rubiconproject.com, 20848, reseller, 0bfd66d529a55807
+indexexchange.com, 175407, reseller
+33across.com, 0010b00002cpyheaav, reseller, bbea06d9c4d2853c
+rubiconproject.com, 16414, reseller, 0bfd66d529a55807
+pubmatic.com, 156423, reseller, 5d62403b186f2ace
+appnexus.com, 10239, reseller, f5ab79cb980f11d1
+openx.com, 537120563, reseller, 6a698e2ec38604c6
+yahoo.com, 57289, reseller, e1a5b5b6e3255540
+emxdgt.com, 1918, reseller, 1e1d41537f7cad7f
+appnexus.com, 1356, reseller, f5ab79cb980f11d1
+google.com, pub-5995202563537249, reseller, f08c47fec0942fa0
+advertising.com, 28246, reseller
+rubiconproject.com, 11006, reseller, 0bfd66d529a55807
+onetag.com, 598ce3ddaee8c90, reseller
+engagebdr.com, 10475, reseller
+
 # These are the list of partners where we serve ads on this site.
 # Last added date = 2.3.21
 # SPONSORS or PARTNERSHIPS = partnerships@camelfrogpodcast.com
