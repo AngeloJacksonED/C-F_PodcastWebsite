@@ -43,6 +43,6 @@ rubiconproject.com, 11006, reseller, 0bfd66d529a55807
 onetag.com, 598ce3ddaee8c90, reseller
 engagebdr.com, 10475, reseller
 
-# These are the list of partners where we serve ads on this site.
+# These are the list of authorized sellers where we serve ads on this site.
 # Last added date = 4.13.21
 # SPONSORS or PARTNERSHIPS = partnerships@camelfrogpodcast.com
