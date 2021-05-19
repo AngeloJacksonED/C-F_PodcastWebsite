@@ -1,9 +1,11 @@
+<html>
 <title>News - Camel & Frog Live Podcast</title>
 <link rel="icon" href="/favicons/icon.ico" type="/favicons/icon.ico" />
 <meta property="og:image" content="/assets/icon.ico">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/e3683c15ce.js" crossorigin="anonymous"></script>
 <script data-ad-client="ca-pub-7091793253721276" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 <link rel="stylesheet" href="/css/contact.css">
 
 <head>
@@ -188,7 +190,7 @@ hr.solid {
 
       <div class="header">
         <h4> <p style="color:white;">Interested in making an idea article for us and our podcast?</p></h4>
-        <button id="myBtn">Submit an Idea for this page!</button>
+        <button class="btn orange modal-trigger" href="#modal4">Submit an Idea for this page!</button>
       </div>
 
       <center>
@@ -373,23 +375,22 @@ hr.solid {
             </div>
           </footer>
 
-  <div id="myModal" class="modal">
-
     <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
+    <div id="modal4" class="modal modal-fixed-footer" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
         <form>
         
         <label for="name"><p>FILL IN ALL BOXES!</p>
             
-        <p>Welcome to the Version 1 of the Contact Form! Make sure to fill in all of the details. We will be in touch with you.</p></label>
+        <p>Welcome to the Version 2 of the Contact Form! Make sure to fill in all of the details. We will be in touch with you.</p></label>
 
         <label for="name">Contact Name*</label>
         <input type="text" id="name" placeholder="Your name.." required>
-
+        
         <label for="email">Email*</label>
         <input type="text" id="email" name="email" placeholder="Your email.." required>
-
+        
         <label for="mess">Message*</label>
         <input type="text" id="mess" name="mess" placeholder="Please tell us more.... What is your idea/article about?" required>
 
@@ -400,9 +401,12 @@ hr.solid {
         <label for="details"><p>THANK YOU! - The Camel & Frog Podcast Staff.</p>
 
         <button type="submit" id="submit">Submit</button>
-    </form>
+        <button type="button" class="modal-close"  data-dismiss="modal">Close</button>
+      </form>
+    </div>
    </div>
  </div>
+</div>
 
 
   <!--  Scripts-->
@@ -412,34 +416,13 @@ hr.solid {
   <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-firestore.js"></script>
   <script src="/js/contact.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-    
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-    
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-
-    </script>
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
+  </script>
 
   </body>
 </html>
