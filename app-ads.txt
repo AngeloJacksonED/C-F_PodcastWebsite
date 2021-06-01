@@ -1,6 +1,3 @@
-# This app-ads.txt will be used at a LATER DATE!
-# For ads.txt, visit ads.txt.
-
 #Google
 google.com, pub-7091793253721276, DIRECT, f08c47fec0942fa0
 
@@ -43,4 +40,6 @@ video.unrulymedia.com, 3630748062, RESELLER, a670c89d4a324e47
 telaria.com, rwd19-3185318, RESELLER, 1a4e959a1b50034a
 tremorhub.com, rwd19-3185318, RESELLER, 1a4e959a1b50034a
 
+# This app-ads.txt declares the use of ads we put in our branded apps.
+# For ads.txt, visit ads.txt.
 # Last added date = 5.17.21.
