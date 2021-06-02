@@ -55,5 +55,5 @@ engagebdr.com, 10475, reseller
 e-planning.net, 901a809a65f984a4, reseller, c1ba615865ed87b2
 
 # These are the list of authorized sellers where we serve ads on this site.
-# Last added date = 4.22.21
+# Last added date = 6.2.21
 # SPONSORS or PARTNERSHIPS = partnerships@camelfrogpodcast.com
