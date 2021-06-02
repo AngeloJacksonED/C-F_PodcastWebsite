@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
     <!-- Hotjar Tracking Code for www.camelfrogpodcast.com -->
  <script>
   (function(h,o,t,j,a,r){
@@ -409,6 +410,8 @@ hr.solid {
         
         <label for="mess">Message*</label>
         <input type="text" id="mess" name="mess" placeholder="Please tell us more.... What is your idea/article about?" required>
+
+        <div class="h-captcha" data-sitekey="3ca1d36b-1734-4560-b147-6148ea10d2e9"></div>
 
         <label for="name"><p>By submitting the form, you agree to our Privacy Policy <a href="/privacypolicy">here.</a></p>    
         <label for="details"><p>Responses will be held safely in our Firestore.</p>
