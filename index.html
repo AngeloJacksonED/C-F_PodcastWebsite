@@ -43,6 +43,35 @@
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "6jbu8dvnbt");
       </script>
+
+<script>
+  function setCookie(name, value, options = {}) {
+  
+  options = {
+    path: '/',
+    ...options
+  };
+  
+  if (options.expires instanceof Date) {
+    options.expires = options.expires.toUTCString();
+  }
+  
+  let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+  
+  for (let optionKey in options) {
+    updatedCookie += "; " + optionKey;
+    let optionValue = options[optionKey];
+    if (optionValue !== true) {
+      updatedCookie += "=" + optionValue;
+    }
+  }
+  
+  document.cookie = updatedCookie;
+  }
+  
+  // Example of use:
+  setCookie('CamelFrogPodcastCookie', 'AT MAIN - 44c2ab3f-ab53-4fab-8633-83067b0c62f5', {secure: true, 'max-age': 3600});
+  </script>
 </head>
 <!-- Global site tag (gtag.js) - Google Ads: 451989898 --> 
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-451989898"></script> 
