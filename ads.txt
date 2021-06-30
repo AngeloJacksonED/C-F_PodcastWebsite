@@ -46,6 +46,7 @@ pubmatic.com, 156423, RESELLER, 5d62403b186f2ace
 appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
 openx.com, 537120563, RESELLER, 6a698e2ec38604c6
 yahoo.com, 57289, RESELLER, e1a5b5b6e3255540
+advertising.com, 12543, RESELLER
 emxdgt.com, 1918, RESELLER, 1e1d41537f7cad7f
 appnexus.com, 1356, RESELLER, f5ab79cb980f11d1
 google.com, pub-5995202563537249, RESELLER, f08c47fec0942fa0
@@ -56,5 +57,5 @@ engagebdr.com, 10475, RESELLER
 e-planning.net, 901a809a65f984a4, RESELLER, c1ba615865ed87b2
 
 # These are the list of authorized sellers where we serve ads on this site.
-# Last added date = 6.8.21
+# Last added date = 6.30.21
 # SPONSORS or PARTNERSHIPS = partnerships@camelfrogpodcast.com
