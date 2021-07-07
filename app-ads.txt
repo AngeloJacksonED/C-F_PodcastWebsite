@@ -42,4 +42,4 @@ tremorhub.com, rwd19-3185318, RESELLER, 1a4e959a1b50034a
 
 # This app-ads.txt declares the use of ads we put in our branded apps.
 # For ads.txt, visit ads.txt.
-# Last added date = 5.17.21.
+# Last added date = 7.6.21.
