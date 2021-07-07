@@ -1,7 +1,5 @@
 #Main Branch
 google.com, pub-7091793253721276, DIRECT, f08c47fec0942fa0
-mopub.com, 6a5e7a4c2a71412d8e8246f4fd669f87, DIRECT, 74b46c0ea83967ca
-rubiconproject.com, 21648, RESELLER, 0bfd66d529a55807
 
 #Unity Ads
 unity.com, 3185318, DIRECT, 96cabb5fbdde37a7
